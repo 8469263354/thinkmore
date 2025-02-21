@@ -1,0 +1,35 @@
+.ball-rout {
+    display: block;
+
+    width: 60px;
+    /* You can adjust the size as needed */
+    height: 60px;
+    /* You can adjust the size as needed */
+    animation: rotateAndScale 4s linear infinite;
+}
+
+@keyframes rotateAndScale {
+    0% {
+        transform: rotateX(12deg) scale(1);
+    }
+
+    30% {
+        transform: rotateY(360deg) scale(1.5);
+    }
+
+    60% {
+        transform: rotate(12deg) scale(1);
+    }
+
+    90% {
+        transform: rotateY(260deg) scale(0.5);
+    }
+
+    100% {
+        transform: rotateX(12deg) scale(1);
+    }
+}
+
+.back-ball {
+    background-color: black;
+}

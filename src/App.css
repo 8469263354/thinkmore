@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #eb4411;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #1547555c;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-backround {
+  background-image: url('/src/login/login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-backround-REGISTER {
+
+  background-image: url('/src/login/register.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registrbox {
+
+}
+
+.whitetext {
+  color: rgb(151, 164, 175);
+}
+
+.back-header-c {
+  background: rgb(0, 18, 84);
+  background: linear-gradient(58deg, rgba(0, 18, 84, 1) 33%, rgba(10, 10, 10, 1) 71%);
+}
+
+.box-designwebdevelopment {
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+  border-color: #2424ad;
+  box-shadow: 0px 6px 5px -3px rgba(91.8, 90.00391304347826, 90.00391304347826, 0.59);
+  background-color: rgba(60, 67, 74, 0.567);
+  margin: 15px 15px 15px 15px;
+  --e-column-margin-right: 15px;
+  --e-column-margin-left: 15px;
+  padding: 20px 20px 20px 20px;
+  color: white;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.box-designwebdevelopment:hover {
+  box-shadow: 4px -6px 22px 2px;
+}
+
+.overtesti-image {
+  width: 80px;
+}
+
+.silder-color {
+  background: rgb(8, 43, 105);
+  background: linear-gradient(90deg, rgba(8, 43, 105, 1) 56%, rgba(26, 25, 28, 1) 100%);
+  padding: 45px !important;
+}
+
+.grupimage {
+  border-radius: 50%;
+}
+
+.box-infor {
+  border-radius: 10px;
+  background: rgb(8, 43, 105);
+  background: linear-gradient(90deg, rgba(8, 43, 105, 1) 56%, rgba(26, 25, 28, 1) 100%);
+
+  padding: 24px !important;
+}
+
+.howto-back {
+  background: rgb(8, 43, 105);
+  background: linear-gradient(90deg, rgba(8, 43, 105, 1) 12%, rgba(21, 30, 51, 1) 41%, rgba(21, 30, 51, 1) 42%, rgba(26, 25, 28, 1) 100%);
+
+
+}
+
+.background-ourpatness {
+  background: rgb(21, 30, 51);
+  background: linear-gradient(90deg, rgba(21, 30, 51, 1) 0%, rgba(24, 28, 37, 1) 30%, rgba(31, 63, 48, 1) 100%);
+}
+
+.gallery-icon {}
+
+.slider-color {
+  background: rgb(8, 43, 105);
+  background: linear-gradient(90deg, rgba(8, 43, 105, 1) 56%, rgba(26, 25, 28, 1) 100%);
+  padding: 30px !important;
+}
+
+.redus-border {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px 21px 0px 22px;
+}
+
+.overflow {
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+img.attachment-full.size-full {
+  margin: 12px;
+}
+
+.offcanvas-body {
+  background: rgb(0, 18, 84);
+  background: linear-gradient(58deg, rgba(0, 18, 84, 1) 33%, rgba(10, 10, 10, 1) 71%);
+}
+
+button.navbar-toggler.collapsed {
+  background-color: aliceblue;
+}

@@ -1,0 +1,28 @@
+.contact-color {
+    color: #F05742;
+    letter-spacing: 2px;
+
+}
+
+.background-contact {
+    background-color: black;
+}
+
+.white-con {
+    color: white
+}
+
+p {
+    color: rgb(153, 166, 177);
+}
+
+.contact-box {
+    padding: 5px;
+    background-color: rgba(47, 43, 43, 0.378);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.contact-box1 {
+    color: white;
+}

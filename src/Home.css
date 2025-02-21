@@ -1,0 +1,176 @@
+.typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .100s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(17, 17, 16);
+    }
+}
+
+.background-home {
+
+    background: rgb(53, 34, 18);
+    background: radial-gradient(circle, rgba(53, 34, 18, 1) 11%, rgba(0, 5, 13, 1) 56%, rgba(0, 5, 13, 1) 78%, rgba(5, 10, 20, 1) 78%);
+}
+
+.get-contact {}
+
+.get-contact {
+    width: 200px;
+    border: 2px linen;
+    color: white;
+    border-radius: 20px;
+    border-style: dashed;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.get-contact:hover {
+
+    border: 2px rgb(192, 103, 14);
+
+    color: rgb(204, 104, 17);
+    border-style: groove;
+
+    text-decoration: none;
+
+}
+
+.back-teamwork {
+    background: rgb(34, 81, 195);
+    background: linear-gradient(0deg, rgba(34, 81, 195, 1) 0%, rgba(32, 36, 37, 1) 91%);
+    background: rgb(0, 18, 84);
+    background: linear-gradient(61deg, rgba(0, 18, 84, 1) 33%, rgba(6, 14, 43, 1) 54%, rgba(10, 10, 10, 1) 71%);
+}
+
+.back-webdesign {
+    background: rgb(0, 18, 84);
+    background: linear-gradient(61deg, rgba(0, 18, 84, 1) 33%, rgba(6, 14, 43, 1) 54%, rgba(10, 10, 10, 1) 71%);
+}
+
+.back-whatweDo {
+    background: rgb(6, 14, 43);
+    background: linear-gradient(240deg, rgba(6, 14, 43, 1) 54%, rgba(10, 10, 10, 1) 71%);
+}
+
+.box-design {
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: #2a2a94;
+
+    margin: 15px 15px 15px 15px;
+    --e-column-margin-right: 15px;
+    --e-column-margin-left: 15px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+}
+
+.get-contact-design {
+    width: 200px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.get-contact-design:hover {
+    color: rgb(219, 130, 13);
+
+}
+
+ul {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding-left: 0px;
+    /* Add some padding to align the custom bullets */
+}
+
+li {
+    position: relative;
+    padding-left: 20px;
+    /* Space for the custom bullet */
+    margin-bottom: 10px;
+    /* Add some space between items */
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    /* Desired width */
+    height: 16px;
+    /* Desired height */
+    background-image: url('./home/199151441-green-check-mark-icon-with-long-shadow-on-white-background-checkmark-icon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+}
+
+.tag {
+    font-size: 12px;
+    fill: #888888;
+    color: #888888;
+    background-color: #292929;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: #4B4B4B;
+    border-radius: 29px 29px 29px 29px;
+    margin-top: 3px;
+    padding: 5px;
+    max-width: 180px;
+    ;
+
+}
+
+.tag:hover {
+    background-color: rgb(190, 58, 18);
+}
+
+.Cousolt {
+    font-size: 16px;
+    background-color: #FD7C3300 !important;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 29px 29px 29px 29px;
+    text-decoration: none;
+    border: white 2px solid;
+    padding: 6px;
+    color: white;
+
+}

@@ -1,0 +1,29 @@
+/* Header.css */
+.nav-link {
+    color: white;
+    font-size: 1.25rem;
+    /* fs-5 is equivalent to 1.25rem */
+    text-decoration: none;
+    margin: 0 10px;
+    /* Add some spacing between links */
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #ff6347;
+    /* Change to your desired hover/active color */
+}
+
+.nav-link-active {
+    color: #ff6347;
+    /* Active link color */
+}
+
+.back-header-c {
+    background-color: #c9bbbb;
+    /* Set a background color for the navbar */
+}
+.navbar-nav .nav-link.show {
+    color: rgb(223 218 218);
+    
+}

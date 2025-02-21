@@ -1,0 +1,64 @@
+/* Profile.css */
+.profile-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-table {
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-table td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.profile-table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+.profile-table tr:hover {
+    background-color: #e9ecef;
+}
+
+.profile-table td:first-child {
+    font-weight: bold;
+    color: #495057;
+    background-color: #e9ecef;
+}
+
+.profile-table td:last-child {
+    color: #6c757d;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-body {
+    background-color: #f8f9fa;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+}
+
+button.btn.btn-outline-success {
+    width: 100px;
+}
+
+.signwithggoofle {
+    cursor: pointer;
+}
